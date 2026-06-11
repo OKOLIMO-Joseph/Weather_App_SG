@@ -1,9 +1,5 @@
-// ----------------------------------------------
-// WEATHER APP USING OPENWEATHERMAP API (free tier)
-// ----------------------------------------------
 
-// ---------- CONFIGURATION ----------
-// Your valid OpenWeather API key
+// OpenWeather API key
 const API_KEY = "78c11182e00e1fdf70b9facbdc936abb";
 
 // DOM elements
