@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>SkyCast | Live Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌤️</text></svg>">
+</head>
+<body>
+  <div class="weather-card">
+    <div class="card-inner">
+      <div class="search-section">
+        <div class="input-group">
+          <input type="text" id="cityInput" placeholder="Enter city name... e.g., London, Tokyo, New York" autocomplete="off">
+          <button id="searchBtn">🔍 Search</button>
+        </div>
+      </div>
+
+      <div id="weatherContent" class="weather-info">
+        <!-- dynamic weather content will be injected here -->
+        <div class="message-area" id="initialMsg">
+          🌤️ Enter a city above to get live weather conditions
+        </div>
+      </div>
+      <footer>Powered by OpenWeather • Real-time data</footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
